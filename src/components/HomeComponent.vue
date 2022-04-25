@@ -1,5 +1,6 @@
 <template>
   <div v-for="thread in threads" :key="thread.id" class="col-large push-top">
+    <h1>Hello, world</h1>
       <h3>{{ thread.title }}</h3>
 
       <div class="post-list">
